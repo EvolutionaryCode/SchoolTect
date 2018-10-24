@@ -3,6 +3,6 @@
     "version": "1.0.0",
     "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "cs.aagrandpre",
-    "contributors": [],
+    "contributors": ["Austin", "Corbin"],
     "dependencies": {}
 }

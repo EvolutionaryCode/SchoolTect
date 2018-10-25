@@ -1,0 +1,7 @@
+{
+  // Required
+  "name": "SchoolTect",
+  "version": "v0.0.1",
+  "description": "Safety, Security Framework",
+  "manifest_version": 2
+}

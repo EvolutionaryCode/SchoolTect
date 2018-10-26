@@ -1,7 +1,7 @@
 {
     "name": "SchoolTect",
     "version": "1.0.0",
-    "keywords": ["util", "functional", "server", "client", "browser", "extension"],
+    "keywords": ["util", "functional", "server", "client", "browser"],
     "author": "cs.aagrandpre",
     "contributors": ["Austin", "Corbin"],
     "dependencies": {}

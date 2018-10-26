@@ -1,31 +1,8 @@
 {
-  // Required
   "name": "SchoolTect",
   "version": "0.0.1",
   "description": "Safety, Security Framework",
   "offline_enabled": true,
   "default_locale": "en",
-  "manifest_version": 2,
-  "icons": {
-  },
-  "permissions": ["clipboardWrite", "clipboardRead", "storage", "tabs", "contextMenus"],
-  "background": {
-    "page": "background.html",
-    "persistent": true
-  },
-  "options_page": "options.html",
-  "browser_action": {
-    "default_title": "Clipboard History",
-    "default_popup": "popup.html",
-    "default_icon": {
-      "38": "imgs/38.png"
-    }
-  },
-  "content_scripts": [{
-    "matches": ["<all_urls>"],
-    "js": ["js/page-action.js"],
-    "run_at": "document_end",
-    "all_frames": false
-  }],
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+  "manifest_version": 2
 }

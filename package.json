@@ -1,8 +1,0 @@
-{
-    "name": "SchoolTect",
-    "version": "0.0.1",
-    "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "cs.aagrandpre",
-    "contributors": ["Austin", "Corbin"],
-    "dependencies": {}
-}

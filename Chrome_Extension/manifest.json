@@ -3,6 +3,24 @@
   "version": "0.0.1",
   "description": "Safety, Security, Framework",
   "offline_enabled": true,
-  "default_locale": "en",
-  "manifest_version": 2
+  "manifest_version": 2,
+  "permissions" : [
+    "clipboardWrite",
+    "clipboardRead",
+    "declarativeContent",
+    "activeTab",
+    "tabs"
+    ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "all_frames": true,
+      "js": [
+        "main.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
 }

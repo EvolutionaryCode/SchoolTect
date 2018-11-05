@@ -11,11 +11,13 @@ class Main {
         chrome.runtime.onMessage.addListener((response) => {
             new CopyPastePro(response.isEnabled);
         })
+    chrome.identity.getProfileUserInfo(function(userInfo) {
+        })
 
 
         if (performance.navigation.type === 1) {
             chrome.runtime.sendMessage({
-                refresh: "yes"
+                refresh: "no"
             });
         }
     }

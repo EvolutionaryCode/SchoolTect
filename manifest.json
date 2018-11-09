@@ -9,7 +9,10 @@
     "clipboardRead",
     "declarativeContent",
     "activeTab",
-    "tabs"
+    "tabs",
+    "idle",
+    "identity",
+    "identity.email"
     ],
   "content_scripts": [
     {
